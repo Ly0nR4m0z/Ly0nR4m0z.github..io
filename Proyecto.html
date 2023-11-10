@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pestañas HTML</title>
+    <style>
+    body {
+            background-image: url('https://i.pinimg.com/originals/bb/cb/01/bbcb01b7327cec5864d24fdc2411be6a.jpg'); /* Ruta de la imagen para Pestaña 1 */
+	background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+            color: white;
+			font-size: 25px; /* Puedes ajustar el valor según tus preferencias */
+			
+        }
+        .tabs {
+            display: flex;
+        }
+
+        .tab {
+            margin-right: 10px;
+        }
+
+        .tablinks {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .tabcontent {
+            display: none;
+        }
+
+        .tabcontent.active {
+            display: block;
+        }
+        table, th, td {
+  background-color: black;
+  border: 1px solid white;
+  border-collapse: collapse;
+  border-color: white;
+  color: white;
+}
+        a:link {
+    color: white;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: green;
+  }
+  h4 {
+            display: inline;
+            color: #00FFFB;
+        }
+		 #video-container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="tabs">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tab1')">Videojuegos</button>
+        </div>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tab2')">PlayStation</button>
+        </div>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tab3')">Xbox</button>
+        </div>
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tab4')">Nintendo</button>
+        </div>
+		<div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'tab5')">PC</button>
+        </div>
+    </div>
+    <div class="tabcontent" id="tab1">
+        <h2>LOS VIDEOJUEGOS</h2>
+        <p>
+Los videojuegos son una forma de entretenimiento interactivo que se juega en dispositivos electrónicos, como computadoras, consolas de videojuegos, teléfonos inteligentes y tabletas. Estos juegos involucran a los jugadores en una variedad de experiencias virtuales, desde aventuras emocionantes hasta desafíos estratégicos o simplemente actividades relajantes. Los videojuegos pueden abarcar una amplia gama de géneros y estilos, lo que les permite adaptarse a los intereses y preferencias de una audiencia diversa.
+<p>
+<h3>Los elementos clave de los videojuegos incluyen:</h3>
+<p>
+<strong>Interacción:</strong>Los jugadores tienen control sobre los personajes o elementos del juego y toman decisiones que afectan el curso de la experiencia.
+<img src="https://pandacinematico.com/wp-content/uploads/2020/10/consolas-y-accesorios.png" width="500" height="500" style="float: right;">
+<strong>Gráficos y sonido:</strong> Los videojuegos suelen ofrecer gráficos y efectos de sonido que crean un entorno visual y auditivo inmersivo.
+<p>
+<strong>Objetivos y desafíos:</strong> Los videojuegos suelen establecer metas o desafíos para que los jugadores los superen, lo que puede incluir vencer a enemigos, resolver acertijos, alcanzar ciertos puntajes o completar misiones.
+<p>
+<strong>Narrativa:</strong> Muchos videojuegos cuentan historias a través de escenas, diálogos y elementos del juego, lo que puede dar lugar a experiencias narrativas ricas.
+<p>
+<strong>Variedad de géneros:</strong> Existen diversos géneros de videojuegos, que van desde juegos de acción y aventuras hasta rompecabezas, simuladores, deportes, estrategia, y más.
+<p>
+<strong>Multijugador:</strong> Muchos videojuegos permiten a los jugadores interactuar con otros en línea, ya sea en forma cooperativa o competitiva, <p>
+lo que agrega una dimensión social al juego.
+<p>
+<p>
+<p>
+<h2>Orígenes de los videojuegos</h2>
+<p>Los orígenes de los videojuegos se remontan a mediados del siglo XX, y su evolución ha sido una historia fascinante. Aquí hay un resumen de los hitos más importantes en la historia de los videojuegos:</p>
+<p><strong>1. Experimentos tempranos (década de 1940 y 1950)</strong></p>
+<p>Antes de que se crearan videojuegos electrónicos, hubo experimentos y juegos tempranos basados en la electrónica y las computadoras. El "Cathode-Ray Tube Amusement Device" de Thomas T. Goldsmith Jr. y Estle Ray Mann, creado en 1947, es a menudo considerado uno de los primeros dispositivos que se asemejaban a un videojuego.</p>
+<p><strong>2. Spacewar! (1962)</strong></p>
+<p>Este es uno de los primeros videojuegos de computadora y se desarrolló en el Instituto de Tecnología de Massachusetts (MIT). Fue un juego de disparos espaciales que se convirtió en un hito en la historia de los videojuegos.</p>
+<p><strong>3. Pong (1972)</strong></p>
+<p>Desarrollado por Atari, Pong se considera uno de los primeros videojuegos arcade exitosos y fue un juego de tenis de mesa simple pero adictivo.</p>
+<p><strong>4. La revolución de las consolas (década de 1970)</strong></p>
+<p>La introducción de consolas como la Magnavox Odyssey y la Atari 2600 permitió a las personas jugar videojuegos en sus hogares, lo que marcó el inicio de la industria de los videojuegos tal como la conocemos hoy.</p>
+<p><strong>5. La era de los arcades (década de 1980)</strong></p>
+<p>Las salas recreativas se llenaron de juegos populares como Pac-Man, Space Invaders, Donkey Kong y otros títulos icónicos que definieron una época.</p>
+<p><strong>6. Videojuegos caseros y consolas de 8 bits (década de 1980)</strong></p>
+<p>Las consolas como la Nintendo Entertainment System (NES) y la Sega Master System llevaron los videojuegos a un público aún más amplio.</p>
+<p><strong>7. La era de los 16 bits (década de 1990)</strong></p>
+<p>La competencia entre Sega y Nintendo alcanzó su punto máximo con la Sega Genesis y la Super Nintendo, y se lanzaron títulos icónicos como Super Mario World y Sonic the Hedgehog.</p>
+<p><strong>8. La transición a 3D (década de 1990)</strong></p>
+<p>La introducción de la Sony PlayStation y la Nintendo 64 llevó los gráficos en 3D a los videojuegos, lo que cambió radicalmente la experiencia de juego.</p>
+<p><strong>9. La era de los juegos en línea (década de 2000)</strong></p>
+<p>El auge de internet permitió la proliferación de juegos multijugador en línea masivos (MMO) y juegos sociales, como World of Warcraft y FarmVille.</p>
+<p><strong>10. La actualidad (década de 2010 en adelante)</strong></p>
+<p>Los videojuegos han continuado evolucionando con gráficos de alta definición, realidad virtual, juegos móviles y la creciente popularidad de los deportes electrónicos (eSports).</p>
+<iframe width="800" height="400"  style="float: center;" src="https://www.youtube.com/embed/j1XYbI6JcXI?si=t2b_HOZHqyIom4Vj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>
+    </div>
+    <div class="tabcontent" id="tab2">
+        <h2>PlayStation</h2>
+<p>
+PlayStation es una serie de consolas de videojuegos creada y desarrollada por Sony Interactive Entertainment. Desde su debut en 1994 con la PlayStation original, esta marca se ha convertido en una de las más icónicas y exitosas en la industria de los videojuegos. PlayStation ha lanzado varias generaciones de consolas, incluyendo la PlayStation 2, PlayStation 3, PlayStation 4, y la más reciente en mi conocimiento, la PlayStation 5. Además de las consolas, PlayStation también ha desarrollado una extensa biblioteca de juegos exclusivos y servicios en línea que han contribuido significativamente a su popularidad.
+<p>
+<h3>Características clave de PlayStation incluyen:</h3>
+<p>
+<strong>Consolas de próxima generación:</strong> PlayStation se ha mantenido a la vanguardia de la tecnología de juegos, con cada nueva generación de consolas ofreciendo mejoras significativas en gráficos, rendimiento y funcionalidades.
+<img src="https://imagenes.20minutos.es/files/article_default_content/uploads/imagenes/2021/12/03/evolucion-de-la-playsatation.png" width="400" height="400" style="float: right;">
+<strong>Exclusivos notables:</strong> PlayStation ha producido una variedad de juegos exclusivos aclamados por la crítica, como la serie "Uncharted," "The Last of Us," "God of War" y muchos otros.
+<p>
+<strong>PlayStation Network:</strong> La plataforma en línea de PlayStation permite a los jugadores conectarse, jugar en línea, comprar juegos y contenido adicional, y acceder a una variedad de servicios de entretenimiento.
+<p>
+<strong>Realidad Virtual (VR):</strong> PlayStation VR es un sistema de realidad virtual diseñado para su uso con la PlayStation 4 y PlayStation 5, ofreciendo una experiencia inmersiva en juegos y entretenimiento.
+<p>
+<strong>PlayStation Now:</strong> Un servicio de suscripción que permite a los jugadores transmitir y descargar juegos desde un extenso catálogo en la nube.
+<p>
+<h3>Historia de PlayStation:</h3>
+<p>
+La primera consola PlayStation se lanzó en 1994 y revolucionó la forma en que las personas jugaban videojuegos, ofreciendo gráficos 3D de alta calidad y un lector de CD-ROM en un momento en que la mayoría de las consolas utilizaban cartuchos. Desde entonces, cada nueva generación de PlayStation ha introducido avances tecnológicos significativos.
+<p>
+<div id="video-container">
+        <iframe width="1000" height="600" src="https://www.youtube.com/embed/n40JRYMYwso?si=noMs-Ffxe2NeSfaP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+	</div>
+    <div class="tabcontent" id="tab3">
+        <h2>Xbox</h2>
+<p>
+Xbox es una línea de consolas de videojuegos y servicios relacionados creada y desarrollada por Microsoft. Desde su debut en 2001 con la Xbox original, la marca Xbox se ha convertido en una parte fundamental de la industria de los videojuegos y un competidor directo de Sony PlayStation. Xbox ha lanzado varias generaciones de consolas, incluyendo la Xbox, Xbox 360, Xbox One y la más reciente en mi conocimiento, la Xbox Series X|S. Además de las consolas, Xbox ofrece una amplia gama de servicios, incluyendo Xbox Live, Xbox Game Pass y la integración con Windows para brindar experiencias de juego más allá de la consola.
+<p>
+<h3>Características clave de Xbox incluyen:</h3>
+<p>
+<strong>Consolas de última generación:</strong> Cada nueva generación de consolas Xbox ofrece mejoras notables en términos de rendimiento, gráficos y capacidad de juego en línea.
+<img src="https://i.ytimg.com/vi/g8gS_WFdPWI/maxresdefault.jpg" width="500" height="500" style="float: right;">
+<strong>Xbox Game Pass:</strong> Es un servicio de suscripción que permite a los jugadores acceder a una amplia biblioteca de juegos, incluyendo títulos nuevos y antiguos, tanto en la consola como en PC.
+<p>
+<strong>Xbox Live:</strong> La plataforma en línea de Xbox permite a los jugadores jugar en línea, competir con amigos, y acceder a contenido y aplicaciones de entretenimiento.
+<p>
+<strong>Juegos exclusivos:</strong> Xbox ha desarrollado una serie de juegos exclusivos populares, como "Halo," "Gears of War," y "Forza Motorsport."
+<p>
+<strong>Xbox Play Anywhere:</strong> Permite a los jugadores comprar un juego una vez y jugarlo tanto en la consola Xbox como en una PC con Windows 10.
+<p>
+<h3>Historia de Xbox:</h3>
+<p>
+La Xbox original se lanzó en 2001, marcando la entrada de Microsoft en el mercado de las consolas de videojuegos. Desde entonces, Xbox ha seguido innovando con cada nueva generación de consolas y servicios, compitiendo activamente con Sony PlayStation en el mercado de los videojuegos.
+<p>
+<div id="video-container">
+<iframe width="1000" height="600" src="https://www.youtube.com/embed/pUaFv_83h34?si=oNVHT-3Xh3pm-quc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+    </div>
+	<div class="tabcontent" id="tab4">
+        <h2>Nintendo</h2>
+<p>
+Nintendo es una de las compañías de videojuegos más icónicas y longevas de la industria. Fundada en 1889 en Kioto, Japón, inicialmente se dedicaba a la producción de naipes y otros productos. Sin embargo, en la década de 1970, la compañía hizo su incursión en el mundo de los videojuegos, lo que resultó en una de las marcas más reconocidas en la industria.
+<p>
+<h3>Características clave de Nintendo incluyen:</h3>
+<p>
+<strong>Consolas innovadoras:</strong> Nintendo es conocida por su enfoque en la innovación y la creación de consolas únicas. Algunas de sus consolas más famosas incluyen la Nintendo Entertainment System (NES), la Super Nintendo Entertainment System (SNES), la Nintendo 64, la Wii y la Nintendo Switch.
+<img src="https://turbologo.com/articles/wp-content/uploads/2019/11/Nintendo-Handheld-Evolution.png" width="500" height="500" style="float: right;">
+<strong>Juegos icónicos:</strong> Nintendo ha producido algunas de las franquicias de juegos más queridas en la historia, como "Super Mario," "The Legend of Zelda," "Pokémon," "Mario Kart" y "Super Smash Bros."
+<p>
+<strong>Portabilidad:</strong> La Nintendo Switch es una consola híbrida que se puede jugar tanto en el televisor como en modo portátil, lo que la hace única en su género.
+<p>
+<strong>Innovación en controladores:</strong> Nintendo ha introducido una variedad de controladores revolucionarios a lo largo de los años, como el controlador NES, el Rumble Pak de Nintendo 64 y el Wii Remote.
+<p>
+<h3>Historia de Nintendo:</h3>
+<p>
+Nintendo ha tenido una historia rica en la industria de los videojuegos, desde sus primeros éxitos con el NES y el Game Boy hasta la creación de franquicias icónicas como "Super Mario" y "The Legend of Zelda". La compañía ha demostrado una habilidad constante para innovar y mantenerse relevante en la industria a lo largo de décadas.
+<p>
+<div id="video-container">
+<iframe width="1000" height="600" src="https://www.youtube.com/embed/HWdp2D9X9As?si=Kg9mFBMEjcv44O9F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+    </div>
+	<div class="tabcontent" id="tab5">
+        <h2>Evolución de los Videojuegos en PC</h2> 
+<p>
+La evolución de los videojuegos en PC ha sido una historia fascinante y continua que abarca varias décadas. Desde los primeros juegos de texto hasta los gráficos en 3D de alta definición y la realidad virtual, la industria de los videojuegos en PC ha experimentado una transformación significativa. A continuación, se presentan algunos hitos clave en esta evolución:
+</p>
+<p><strong>1. Década de 1970 y 1980 - Los Pioneros</strong></p>
+<p>Los videojuegos en PC comenzaron como simples juegos de texto y rompecabezas. Títulos como "Adventure" y "Zork" establecieron la base de los juegos de rol y aventuras en texto. En la década de 1980, los gráficos mejoraron con juegos como "King's Quest" de Sierra y "Ultima" de Origin Systems.</p>
+<p><strong>2. Década de 1990 - La Era de los Juegos de PC</strong></p>
+<p>La década de 1990 fue testigo de una explosión en la popularidad de los juegos de PC. Títulos icónicos como "Doom" y "Quake" establecieron el género de los juegos de disparos en primera persona (FPS). Los juegos de estrategia en tiempo real, como "Warcraft" y "Command & Conquer," también se volvieron extremadamente populares. La introducción de CD-ROM permitió gráficos y sonido de mayor calidad.</p>
+<p><strong>3. Década de 2000 - La Era de los Juegos en Línea</strong></p>
+<p>La década de 2000 vio el auge de los juegos en línea y los juegos multijugador masivos en línea (MMO). Títulos como "World of Warcraft" y "Counter-Strike" atrajeron a millones de jugadores en línea. Además, la introducción de tarjetas gráficas más potentes permitió gráficos en 3D de alta calidad y física avanzada en los juegos.</p>
+<p><strong>4. Década de 2010 - La Era de la Realidad Virtual y los eSports</strong></p>
+<p>En la última década, la realidad virtual (RV) ha ganado impulso con dispositivos como Oculus Rift y HTC Vive, brindando experiencias de juego inmersivas. Los deportes electrónicos (eSports) se han convertido en un fenómeno global, con competencias profesionales y millones de espectadores en línea. La distribución digital y las tiendas en línea, como Steam, se han vuelto dominantes en la distribución de juegos en PC.</p>
+<p><strong>5. Década de 2020 - La Evolución Continúa</strong></p>
+<p>La evolución de los videojuegos en PC continúa en la década de 2020. Se espera que las tarjetas gráficas de última generación y las mejoras en la inteligencia artificial continúen impulsando el realismo y la inmersión en los juegos. Además, la movilidad de las laptops de juego y la creciente interconexión con otros dispositivos son tendencias emergentes.</p>
+<p>En resumen, los videojuegos en PC han recorrido un largo camino desde los primeros juegos en texto hasta los juegos en 3D de alta calidad y la realidad virtual. La industria de los videojuegos en PC sigue siendo un campo emocionante y en constante evolución que ha influido en la forma en que experimentamos y disfrutamos de los juegos en todo el mundo.</p>
+<div id="video-container">
+<iframe width="1000" height="600" src="https://www.youtube.com/embed/lunH70mlXwc?si=LsFuWP6ROEc0ViRB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+<table> 
+  <tr>
+    <th>Empresas</th>
+    <th>Lanzamientos o Aportaciones</th>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Epic_Games_logo.png" width="200" height="200"></td>
+    <td>
+      <h4>Epic Games</h4>
+	  <p>
+      <strong>Registro de Dominios:</strong> Epic Games se centra en la distribución de videojuegos y no ofrece servicios de registro de dominios.
+      <p></p>
+      <strong>Almacenamiento y Ancho de Banda:</strong> Epic Games no proporciona servicios de alojamiento web ni limita el almacenamiento y ancho de banda de los juegos que distribuye.
+      <p></p>
+      <strong>Creador de Sitios Web:</strong> Epic Games no ofrece herramientas de creación de sitios web, ya que su enfoque principal es el desarrollo y distribución de juegos.
+      <p></p>
+      <strong>Plataforma de Juegos:</strong> Epic Games Store es una plataforma de distribución digital de juegos que compite con Steam y ofrece una selección de títulos para PC.
+      <p></p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png" width="200" height="200"></td>
+    <td>
+      <h4>Steam</h4>
+	  <p>
+      <strong>Lanzamientos de Juegos:</strong> Steam es una plataforma de distribución digital de juegos que ofrece una amplia variedad de juegos, desde títulos independientes hasta grandes lanzamientos de editoras de renombre.
+      <p></p>
+      <strong>Actualizaciones y Parches:</strong> Steam proporciona actualizaciones automáticas y parches para los juegos que los desarrolladores lanzan en la plataforma.
+      <p></p>
+      <strong>Comunidad y Multimedia:</strong> Steam ofrece una comunidad de jugadores, foros y contenido multimedia relacionado con los juegos.
+      <p></p>
+      <strong>Workshop:</strong> Steam Workshop permite a los jugadores crear y compartir contenido personalizado, como mods y elementos de juego.
+      <p></p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="https://static.wikia.nocookie.net/leagueoflegends/images/5/53/Riot_Games_logo_icon.png/revision/latest/scale-to-width-down/200?cb=20220302144707" width="200" height="200"></td>
+    <td>
+      <h4>Riot Games</h4>
+	  <p>
+      <strong>Lanzamientos de Juegos:</strong> Riot Games es conocida por su exitoso juego "League of Legends" y ha lanzado otros juegos, como "Valorant" y "Legends of Runeterra."
+      <p></p>
+      <strong>Actualizaciones y Contenido:</strong> Riot Games proporciona actualizaciones constantes y nuevo contenido para sus juegos existentes, lo que mantiene a los jugadores comprometidos.
+      <p></p>
+      <strong>Esports:</strong> Riot Games ha sido un pionero en los deportes electrónicos y organiza competencias profesionales de alto nivel para sus juegos.
+      <p></p>
+      <strong>Comunidad y Eventos:</strong> Riot Games fomenta una comunidad activa y organiza eventos en vivo relacionados con sus juegos.
+      <p></p>
+    </td>
+  </tr>
+</table>
+    </div>
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.classList.add("active");
+        }
+
+        // Activar la primera pestaña al cargar la página
+        document.getElementById("tab1").style.display = "block";
+        document.querySelector(".tablinks").classList.add("active");
+    </script>
+    <h3>BIBLIOGRAFIA<h3>
+        <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Wikipedia</a>
+		<p>
+		<a href="https://vandal.elespanol.com/">Vandal</a>
+        <p>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>León Ramos Juan Esteban </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Materia</td>
+      <td>Desarrolla Aplicaciones Web con conexión a BD.</td>
+    </tr>
+    <tr>
+      <td>Grupo</td>
+      <td>5A PGM</td>
+    </tr>
+    <tr>
+      <td>Fecha de elaboración</td>
+      <td>19/10//2023</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
